@@ -1,31 +1,46 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/userConsole/userConsole",
-    "pages/storageConsole/storageConsole",
-    "pages/databaseGuide/databaseGuide",
-    "pages/addFunction/addFunction",
-    "pages/deployFunctions/deployFunctions",
-    "pages/chooseLib/chooseLib",
-    "pages/openapi/openapi",
-    "pages/openapi/serverapi/serverapi",
-    "pages/openapi/callback/callback",
-    "pages/openapi/cloudid/cloudid",
-    "pages/im/im",
-    "pages/im/room/room"
+    "pages/tab-find/find",
+    "pages/tab-special/special",
+    "pages/tab-message/message",
+    "pages/tab-my/my",
+    "pages/tab-add/add"
   ],
   "window": {
-    "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "婴童",
     "navigationBarTextStyle": "black"
   },
-"usingComponents": {
-  "van-button": "../../vant/button/index",
-  "van-icon": "../../vant/icon/index",
-  "tabbar": "../components/tabbar/tabbar"
-},
+  "tabBar": {
+    "custom":true,
+    "list": [
+      {
+      "pagePath": "pages/tab-find/find",
+      "text": "发现",
+      "iconPath": "pages/resource/image/resource/loading.png",
+      "selectedIconPath": "pages/resource/image/resource/loading.png"
+      },
+      {
+        "pagePath": "pages/tab-special/special",
+        "text": "专栏",
+        "iconPath": "pages/resource/image/resource/loading.png",
+        "selectedIconPath": "pages/resource/image/resource/loading.png"
+      },
+      {
+        "pagePath": "pages/tab-message/message",
+        "text": "通知",
+        "iconPath": "pages/resource/image/resource/loading.png",
+        "selectedIconPath": "pages/resource/image/resource/loading.png"
+      },
+      {
+        "pagePath": "pages/tab-my/my",
+        "text": "我的",
+        "iconPath": "pages/resource/image/resource/loading.png",
+        "selectedIconPath": "pages/resource/image/resource/loading.png"
+      }
+    ]
+  },
   "sitemapLocation": "sitemap.json",
-  "style": "v2"
+  "usingComponents":{}
 }
