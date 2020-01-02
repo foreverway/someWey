@@ -1,41 +1,16 @@
 {
-	"description": "项目配置文件",
-	"packOptions": {
-		"ignore": []
-	},
+	"miniprogramRoot": "dist/",
+	"projectname": "myApp",
+	"description": "而是次",
+	"appid": "wxbbe0dcd0b1030247",
 	"setting": {
 		"urlCheck": true,
-		"es6": true,
-		"postcss": true,
-		"minified": true,
-		"newFeature": true,
-		"autoAudits": false
+		"es6": false,
+		"postcss": false,
+		"minified": false
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.7.1",
-	"appid": "wxbbe0dcd0b1030247",
-	"projectname": "custom%20tabbar",
-	"debugOptions": {
-		"hidedInDevtools": []
-	},
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
-	"condition": {
-		"search": {
-			"current": -1,
-			"list": []
-		},
-		"conversation": {
-			"current": -1,
-			"list": []
-		},
-		"game": {
-			"currentL": -1,
-			"list": []
-		},
-		"miniprogram": {
-			"current": -1,
-			"list": []
-		}
-	}
+	"condition": {}
 }
